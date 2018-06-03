@@ -1,0 +1,25 @@
+[gui]
+	encoding = utf-8
+
+[user]
+        name = Pimo.Lin
+        email = iltetnow@gmail.com
+[core]
+        editor = vim 
+	whitespace = off 
+	excludesfile = ~/.gitignore
+[advice]
+	statusuoption = false
+[color]
+        ui = true
+[push]
+ 	default = current
+[alias]
+        st = status
+        br = branch
+        co = checkout
+        cm = commit
+        hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+[commit]
+        template = /d/git/Script_config/config/git
+/.git-commit-template.txt
